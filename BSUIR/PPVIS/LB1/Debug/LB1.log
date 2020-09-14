@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Stud\BSUIR\PPVIS\LB1\Source.cpp(233,7): warning C4101: tmp: неиспользованная локальная переменная
+  LB1.vcxproj -> D:\Stud\BSUIR\PPVIS\LB1\Debug\LB1.exe
