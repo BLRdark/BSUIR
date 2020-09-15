@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <iostream>
 
 using namespace std;
 
@@ -110,13 +109,11 @@ public:
 		delete[] mas;
 
 
-		mas = newmas;
-		m = X;
-		n = Y;
+
 		matrix p;
-		p.m = m;
-		p.n = n;
-		p.mas = mas;
+		p.m = X;
+		p.n = Y;
+		p.mas = newmas;
 		return p;
 	} 
 
@@ -155,13 +152,10 @@ public:
 		delete[] mas;
 
 
-		mas = newmas;
-		m = X;
-		n = Y;
 		matrix p;
-		p.m = m;
-		p.n = n;
-		p.mas = mas;
+		p.m = X;
+		p.n =Y;
+		p.mas = newmas;
 		return p;
 	}
 
@@ -486,6 +480,7 @@ int main()
 		{
 			arr.matrixtype();
 			system("pause");
+			break;
 		}
 		case 0:
 			exit(0);
